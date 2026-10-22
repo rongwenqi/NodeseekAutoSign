@@ -2,7 +2,7 @@ name: NodeSeek 每日保底签到
 on:
   schedule:
     # UTC 00:25 = 北京时间 08:25 入队，你后续可以自行修改
-    - cron: '25 0 * * *'
+#    - cron: '25 0 * * *'
   workflow_dispatch: # 手动触发，不延迟
 
 jobs:
