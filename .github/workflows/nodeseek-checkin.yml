@@ -18,7 +18,7 @@ jobs:
           python-version: '3.12'
 
       - name: 安装依赖
-        run: pip install requests curl_cffi
+        run: pip install requests "curl_cffi>=0.6.2"
 
       - name: 随机延迟（仅定时任务）
         if: github.event_name == 'schedule'
